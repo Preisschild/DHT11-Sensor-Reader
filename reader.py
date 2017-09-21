@@ -11,7 +11,7 @@ humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 
 
 if humidity is not None and temperature is not None:
-    print('Temp={0:0.1f}*  /  Luftfeuchtigkeit={1:0.1f}%'.format(temperature, h$
+    print('Temperatur={0:0.1f}*  /  Luftfeuchtigkeit={1:0.1f}%'.format(temperature, h$
 else:
     print('Sensorfehler')
     sys.exit(1)
