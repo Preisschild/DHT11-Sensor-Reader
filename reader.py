@@ -1,5 +1,4 @@
 #!/usr/bin/python
-#Author: Florian Ströger
 
 import sys
 import Adafruit_DHT
